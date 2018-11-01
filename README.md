@@ -79,7 +79,7 @@ Follow the instructions corresponding to the technology you'd like to use to hos
 1. If you'd like to receive a text message when your Pi finishes archiving clips follow these [Instructions](doc/ConfigureNotificationsForArchive.md).
 1. Run these commands:
     ```
-    wget https://raw.githubusercontent.com/cimryan/teslausb/master/setup/pi/setup-teslausb
+    wget https://raw.githubusercontent.com/chilman408/teslausb/master/setup/pi/setup-teslausb
     chmod +x setup-teslausb
     ./setup-teslausb
     ```
