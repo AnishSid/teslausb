@@ -13,7 +13,7 @@ function add_drive () {
   local filename="$4"
   echo "Allocating ${size}K for $filename..."
   fallocate -l "$size"K "$filename"
-  mkfs.vfat "$filename" -F 32 -n "$label"
+  mkfs.vfat "$filename" -s 8 -F 32 -n "$label"
 
   local mountpoint=/mnt/"$name"
 
